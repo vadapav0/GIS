@@ -1,0 +1,29 @@
+Add Vector Layer
+→ Layer → Add Layer → Add Vector Layer
+→ Select:
+I:\GIS_Workshop\Practicals\Practical_07\A\Data\tl_2013_06_tract.zip.
+
+Add Delimited Text Layer
+→ Layer → Add Layer → Add Delimited Text Layer
+→ Select:
+I:\GIS_Workshop\Practicals\Practical_07\A\Data\ca_tacts_pop.csv.
+
+Open Layer Properties
+→ In the Layers panel, right-click on tl_2013_06_tract
+→ Select Properties.
+
+Add Table Join
+→ Go to Joins tab
+→ Click the + (Add new join) button.
+
+Set Join Properties in Add Vector Join Window
+
+Join Layer: ca_tacts_pop
+Join Field (from CSV): common field (e.g., GEOID)
+Target Field (from shapefile): matching field (e.g., GEOID or similar)
+Optionally check:
+Joined fields prefix (optional for clarity)
+Cache join layer in virtual memory
+→ Click OK.
+Apply and Close
+→ Click Apply, then OK in Layer Properties.
