@@ -1,0 +1,7 @@
+Add Delimited Text Layer
+→ Layer → Add Layer → Add Delimited Text Layer.
+
+Select the CSV File
+→ In the Data Source Manager | Delimited Text window,
+→ Browse and select:
+GIS_Workshop/Practicals/Practical_03/C/Sample.csv.
