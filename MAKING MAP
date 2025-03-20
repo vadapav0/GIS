@@ -1,0 +1,22 @@
+Open or Create a Thematic Map
+→ Load your map in QGIS.
+
+Create a Print Layout
+→ Project → New Print Layout
+→ Enter a title → OK.
+
+Add the Main Map
+→ Add Item → Add Map
+→ Draw the map area on the layout.
+→ Go to Item Properties → Layers → Choose Map1.
+
+Add a Picture (Logo/Inset)
+→ Add Item → Add Picture
+→ Place the picture box where needed.
+
+Add Inset Overview
+→ Select the main map picture from the Items pane.
+→ Go to Item Properties → Overviews
+→ Click + icon to add an overview.
+→ Check Draw Overview
+→ Choose the inset map (e.g., Map1) as the reference.
