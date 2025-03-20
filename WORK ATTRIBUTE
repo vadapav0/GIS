@@ -1,0 +1,14 @@
+Add Vector Layer
+→ Layer → Add Layer → Add Vector Layer
+→ Select:
+GIS_Workshop/Practicals/Practical_04/A/Data/ne_10m_populated_places_simple.zip.
+
+Open Attribute Table
+→ Right-click the layer in the Layers Panel
+→ Open Attribute Table.
+→ Explore the fields, especially pop_max.
+
+Select Features by Expression
+→ Click Select Features Using Expression (Epsilon icon).
+→ Enter the expression:
+pop_max > 100 AND pop_max < 10000
