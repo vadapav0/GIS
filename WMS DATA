@@ -1,0 +1,28 @@
+Start a New Project
+→ Project → New.
+
+Add Vector Layer
+→ Layer → Add Layer → Add Vector Layer
+→ Select:
+ne_10m_admin_0_countries.zip.
+
+Save Layer with New CRS
+→ Right-click the layer → Export → Save Features As
+→ Format: ESRI Shapefile
+→ Choose folder location & file name
+→ Set CRS: North America Albers Equal Area Conic (EPSG: 102008)
+→ Press OK.
+→ Deselect the original layer, keep the projected one visible.
+
+Add Raster Layer
+→ Layer → Add Layer → Add Raster Layer
+→ Select:
+MiniScale_(standard)_R17.tif
+→ Path:
+GIS_Workshop/Practicals/Practical_05/DATA/minisc_gb/minisc_gb/data/RGB_TIF_compressed/MiniScale_(standard)_R17.tif
+
+Set Raster CRS
+→ Right-click the raster layer → Properties → CRS
+→ Search for British National Grid
+→ Select EPSG: 27700
+→ Press OK.
