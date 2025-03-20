@@ -1,0 +1,31 @@
+Add Raster Layer
+→ Layer → Add Layer → Add Raster Layer
+→ Select:
+10n060e_20101117_gmted_mea300.tif.
+
+Navigate to Mt. Everest
+→ Enter Coordinates: 86.92, 27.98 (Lon, Lat).
+→ Set Scale to 900000 and Magnifier to 100%.
+
+Crop the Raster Layer
+→ Raster → Extraction → Clip Raster by Extent
+→ Select the raster layer
+→ Use Canvas Extent or Select Extent on Canvas
+→ Set output file location & name
+→ Press Run
+→ Deselect original layer, keep the clipped one.
+
+Generate Contour Lines
+→ Raster → Extraction → Contour
+→ Select clipped raster layer
+→ Set Contour Interval: 100.00 meters
+→ Set output file location & name
+→ Check Add result to project
+→ Press Run.
+
+Hillshade Surface Analysis
+→ Plugins → Manage and Install Plugins → Install Georeferencer GDAL
+→ Raster → Analysis → Hillshade
+→ Select input raster
+→ Choose output file location & name
+→ Press Run.
