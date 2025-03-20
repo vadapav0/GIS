@@ -1,0 +1,13 @@
+Add Vector Layers
+→ Layer → Add Layer → Add Vector Layer
+→ Select:
+I:\GIS_Workshop\Practicals\Practical_07\B\Data\nybb_12c\nybb_13c_av\nybb.shp
+I:\GIS_Workshop\Practicals\Practical_07\B\Data\OEM_NursingHomes_001\OEM_NursingHomes_001.shp.
+
+Join Attributes by Location
+→ Vector → Data Management Tools → Join Attributes by Location
+→ Set Target layer: nybb
+→ Set Join layer: OEM_NursingHomes_001
+→ Choose Geometric predicate (e.g., intersects or within)
+→ Select output location & name
+→ Press Run.
