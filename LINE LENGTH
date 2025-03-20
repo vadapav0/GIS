@@ -1,0 +1,26 @@
+Load Layer
+→ Layer → Add Layer → Add Vector Layer → Select IND_rails.
+
+Open Attribute Table
+→ Right-click IND_rails → Open Attribute Table.
+
+Enable Editing
+→ Click Toggle Editing (pencil icon).
+
+Open Field Calculator
+→ Click Field Calculator (calculator icon).
+
+Create New Field
+
+Name: Track_Len
+Type: Decimal Number
+Expression: $length / 1000
+Save Edits
+→ Click Toggle Editing → Save changes.
+
+Run Statistics
+→ Vector → Analysis Tools → Basic Statistics for Fields.
+
+Input Layer: IND_rails
+Field: Track_Len
+→ Click Run.
