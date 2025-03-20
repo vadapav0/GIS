@@ -1,0 +1,39 @@
+1. Add Raster Layer (Temperature Data)
+Go to Layer → Add Raster Layer
+Select us.tmax_nohads_ll_{YYYYMMDD}_float.tif → Open
+
+2. Add Urban Areas (Point Layer)
+Unzip 2013_Gaz_ua_national.zip
+Go to Layer → Add Delimited Text Layer
+Select 2013_Gaz_ua_national.txt
+Set Custom delimiters → Tab
+X Field: INTPTLONG, Y Field: INTPTLAT
+Check Use spatial index → OK
+
+3. Install & Use Point Sampling Tool Plugin
+Go to Plugins → Manage and Install Plugins
+Install Point Sampling Tool
+Open Plugins → Analyses → Point Sampling Tool
+Layer with sampling points: 2013_Gaz_ua_national
+Fields: GEOID, NAME
+Raster: us.tmax_nohads_ll_{YYYYMMDD}_float: Band 1
+Output: max_temperature_at_urban_locations.shp → OK
+New layer is added. Use Identify tool to check values.
+
+4. Add County Boundaries (Polygon Layer)
+Go to Layer → Add Vector Layer
+Select tl_2013_us_county.shp → OK
+This layer is in EPSG:4269 NAD83
+
+5. Reproject County Layer to EPSG:4326 WGS84
+Right-click tl_2013_us_county → Export → Save Features As...
+Format: ESRI Shapefile
+CRS: EPSG:4326 (WGS 84)
+Save as counties.shp → Check Add saved file to map → OK
+
+6. Perform Zonal Statistics
+Enable Zonal Statistics Plugin (Core Plugin)
+Go to Raster → Zonal Statistics
+Raster layer: us.tmax_nohads_ll_{YYYYMMDD}_float
+Zones layer: counties.shp
+Output column prefix: ZS_ → OK
