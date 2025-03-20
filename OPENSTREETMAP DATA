@@ -1,0 +1,15 @@
+Install Plugins
+→ Plugins → Manage and Install Plugins
+→ Go to Not Installed tab
+→ Install OpenLayers and OSM Place Search plugins.
+
+Activate OSM Place Search Panel
+→ If not visible, go to View → Panels
+→ Enable OSM Place Search.
+
+Add Open Street Map Layer
+→ Web → OpenLayers Plugin → Open Street Map.
+
+Search for a Place
+→ In OSM Place Search panel, type Mumbai (or any place).
+→ Double-click the result or click and press to zoom to the location.
