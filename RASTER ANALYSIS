@@ -1,0 +1,16 @@
+Add Raster Layers
+→ Layer → Add Layer → Add Raster Layer
+→ Load glds90ag60.asc & glds00ag60.asc.
+
+Convert Grayscale to Color
+→ Right-click glds90ag60.asc → Properties → Symbology → Set Singleband Pseudocolor → OK.
+🔁 Repeat for glds00ag60.asc.
+
+Calculate Population Difference
+→ Raster → Raster Calculator
+→ Expression: "glds00ag60@1" - "glds90ag60@1"
+→ Select output file → OK.
+
+Style the Output Layer
+→ Double-click pop_diff → Symbology → Set Singleband Pseudocolor → Interpolation: Discrete
+→ Adjust classification → OK.
