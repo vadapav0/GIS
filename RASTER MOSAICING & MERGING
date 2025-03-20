@@ -1,0 +1,20 @@
+Add Raster Layers
+→ Layer → Add Layer → Add Raster Layer
+→ Select:
+FAS_India1.2018349.terra.367.2km.tif
+FAS_India2.2018349.terra.367.2km.tif
+FAS_India3.2018349.terra.367.2km.tif
+FAS_India4.2018349.terra.367.2km.tif
+
+
+Merge Raster Layers
+→ Raster → Miscellaneous → Merge
+→ Select all layers → OK
+→ In Merge dialog:
+
+Output file: GIS_Workshop/Practicals/Practical_02/C/Merge_Files.tif
+→ Press Run, then Close the Merge dialog after processing.
+Add Vector Layer
+→ Layer → Add Layer → Add Vector Layer
+→ Select:
+GIS_Workshop/Practicals/Practical_02/C/IndiaAdminBoundry/IND_adm0.shp
