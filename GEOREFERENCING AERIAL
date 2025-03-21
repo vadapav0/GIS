@@ -1,0 +1,24 @@
+Install OSM Plugin
+→ Plugins → Manage and Install Plugins → Install OpenStreetMap Plugin
+
+Add OpenStreetMap Layer
+→ Web → OpenLayer Plugin → OpenStreetMap → OpenStreetMap
+
+Set Project CRS
+→ Project → Properties → CRS → EPSG: 3857
+
+Enable OSM Place Search Panel
+→ View → Panels → OSM Place Search
+→ Search "Gateway of India" (18.92°N, 72.83°E)
+
+Open Georeferencer
+→ Raster → Georeferencer
+→ File → Open Raster
+→ Select Gateway_Imagery.tif
+
+Add Control Points
+→ Edit → Add Point
+→ Select points from the map (red marks)
+
+Start Georeferencing
+→ File → Start Georeferencing
