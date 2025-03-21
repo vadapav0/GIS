@@ -1,0 +1,28 @@
+Add Vector Layer
+→ Go to Layer → Add Layer → Add Vector Layer
+→ Select GIS_Workshop\Manual\Prac06\IND_adm0.shp
+
+Enable Georeferencer Plugin
+→ Go to Plugins → Manage and Install Plugins
+→ Install/Ensure Georeferencer GDAL is enabled.
+
+Open Georeferencer
+→ Go to Raster → Georeferencer
+→ File → Open Raster
+→ Select 1870_southern-india_3975_3071_600.jpg
+
+Transformation Settings
+→ Settings → Transformation Settings
+
+Transformation Type: Thin Plate Spline
+Resampling: Nearest Neighbour
+CRS: Everest 1830 datum (EPSG 4044)
+Output Raster: Choose file name & location
+Check Load in QGIS when done
+→ Press OK
+Add Control Points
+→ Edit → Add Points (select GCPs on raster and reference layer)
+
+Run Georeferencing
+→ Settings → Transformation Settings → RUN
+→ Then File → Start Georeferencing
