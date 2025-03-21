@@ -1,0 +1,22 @@
+Add Raster Layer
+➜ Layer → Add Raster → Christchurch Topo50 map.tif
+
+Build Image Pyramids
+➜ Right-click layer → Properties → Pyramids
+➜ Select all resolutions → Build pyramids → OK
+
+Set Snapping
+➜ Settings → Options → Digitizing
+➜ Default snap mode: Vertex and Segment
+
+Create Spatialite Layer
+➜ Layer → Add Spatialite Layer
+➜ Create DB: MySpatialDataBase.sqlite
+➜ Layer name: Digitized_Road | Geometry: Line | CRS: EPSG 4167
+➜ Add fields: Name, Class
+
+Start Digitizing
+➜ Toggle Editing → Add Feature
+➜ Click to add vertices along roads
+➜ Right-click to finish → Enter Name & Class
+➜ Save edits! ✅
